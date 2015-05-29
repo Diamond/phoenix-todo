@@ -29,7 +29,7 @@ config :logger, :console, format: "[$level] $message\n"
 # Configure your database
 config :phoenix_todo, PhoenixTodo.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "brandon",
+  password: "",
   database: "phoenix_todo_dev",
   size: 10 # The amount of database connections in the pool
